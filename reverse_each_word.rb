@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
     reverse_ordered_words.unshift(element)
   end
   
-  reversed_sentence = reverse_ordered_words.join()
+  reversed_sentence = reverse_ordered_words.join(" ")
 end
